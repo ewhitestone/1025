@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #34465C;
+}
+
+/* THE NAV BAR */
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: black;
+}
+
+#nav li {
+	float: right;
+	font-size: 20px;
+}
+
+#nav li a {
+	display: block;
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+}
+
+#nav li a:hover {
+	background-color: #eff3f6;
+	color: black;
+	text-shadow: none;
+}
+/* END OF NAV BAR */
+
+/* TEAM PICTURE GALLERY */
+#team {
+	width: 100%;
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 35px;
+	font-family: garamond;
+}
+
+#container {
+	background-color: black;
+	width: 60%;
+	margin: auto;
+	color: white;
+	margin-bottom: 20px;
+}
+#container p {
+	clear: both;
+	color: black;
+}
+#container div {
+	text-align: center;
+	margin: 25px 8% 10px 8%;
+}
+img {
+	width: 250px;
+}
+
+#kali {
+	float: left;
+}
+#max {
+	float: right;
+}
+#kelsey {
+	float: left;
+	clear: both;
+}
+#nick {
+	float: right;
+	clear: right;
+}
+
+#ray {
+	float: left;
+	clear: both;
+}
+#emma {
+	float: right;
+	clear: right;
+}

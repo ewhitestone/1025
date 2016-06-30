@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	background-image: url(../images/dcpool2.jpg);
+	/*background-size: cover; */
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+#logotop img {
+	position: absolute;
+	top: 0%;
+	left: 12%;
+	height: 100px;
+}
+
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: black;
+}
+
+#nav li {
+	float: right;
+	font-size: 20px;
+}
+
+#nav li a {
+	display: block;
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+}
+
+#nav li a:hover {
+	background-color: #eff3f6;
+	color: black;
+	text-shadow: none;
+}
+
+.headline {
+	position: absolute;
+	top: 80%;
+	width: 100%;
+	text-align: center;
+}
+
+.headline h1 {
+	font-size: 4vw;
+	font-family: garamond;
+	color: white;
+}
